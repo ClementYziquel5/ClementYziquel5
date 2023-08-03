@@ -20,7 +20,7 @@ function getDaysBeforeNextBirthday() {
 const main = async () => {
     const daysBeforeBirthday = getDaysBeforeNextBirthday();
     const newReadme = readme.replace('<#daysBeforeBirthdday>', daysBeforeBirthday);
-    fs.writeFileSync('readme.md', newReadme);
+    fs.writeFileSync('README.md', newReadme);
 }
 
 main();
