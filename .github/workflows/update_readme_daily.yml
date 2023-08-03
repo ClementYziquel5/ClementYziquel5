@@ -18,7 +18,6 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           author_name: ClementYziquel5
-          author_email:
           message: "Update README daily"
           add: "README.md"
           signoff: true 
