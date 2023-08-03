@@ -1,6 +1,8 @@
+
 ### Hi there my name is Clément 👋
 
-Only x days before my next birthday! 🎂
+Only 194 days before my next birthday! 🎂
+
 ## 🎓 M1 Cybersecurity Student at ISEN Brest
 
 I am passionate about cybersecurity and currently pursuing my second year of Master's degree at [ISEN Brest](https://isen-brest.fr/). I love learning and exploring new technologies.
@@ -26,19 +28,3 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 
 - Learning about new cybersecurity trends and tools, TryHackMe is my favorite platform for that
 - Running, working out, or any outdoor activities
-
-
-<!--
-**ClementYziquel5/ClementYziquel5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

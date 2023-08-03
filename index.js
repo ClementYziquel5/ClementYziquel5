@@ -6,10 +6,19 @@
 
 const fs = require('fs');
 const readme = require('./readme.js');
-const { getDaysBeforeBirthday } = require('./utils.js');
+
+function getDaysBeforeNextBirthday() {
+    const today = new Date();
+    const birthday = new Date(today.getFullYear(), 1, 13);
+    if (today.getMonth() > 1 || (today.getMonth() == 1 && today.getDate() > 13)) {
+        birthday.setFullYear(birthday.getFullYear() + 1);
+    }
+    const oneDay = 1000 * 60 * 60 * 24;
+    return Math.ceil((birthday.getTime() - today.getTime()) / oneDay);
+}
 
 const main = async () => {
-    const daysBeforeBirthday = await getDaysBeforeBirthday();
+    const daysBeforeBirthday = getDaysBeforeNextBirthday();
     const newReadme = readme.replace('<#daysBeforeBirthdday>', daysBeforeBirthday);
     fs.writeFileSync('readme.md', newReadme);
 }
