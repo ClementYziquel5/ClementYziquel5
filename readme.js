@@ -16,8 +16,8 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 
 ### 🌱 What I'm Learning
 
-- I'm currently exploring [Burp Suite](https://portswigger.net/burp)
-- Next step is mastering [Docker](https://www.docker.com/)
+- I'm currently exploring [<#CurrentlyLearning>](<#CurrentlyLearningLink>)
+- Next step is mastering [<#NextStep>](<#NextStepLink>)
 
 ### 📂 Projects
 

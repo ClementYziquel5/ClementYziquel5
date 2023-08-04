@@ -1,6 +1,11 @@
 const fs = require('fs');
 const readme = require('./readme.js');
 
+const currentlyLearning = "Burp Suite";
+const currentlyLearningLink = "https://portswigger.net/burp";
+const nextStep = "Docker";
+const nextStepLink = "https://www.docker.com/";
+
 function getDaysBeforeNextBirthday() {
     const today = new Date();
     const birthday = new Date(today.getFullYear(), 0, 14);
@@ -31,6 +36,10 @@ const main = async () => {
 
     let newReadme = readme.replace('<#daysBeforeBirthdday>', daysBeforeBirthday);
     newReadme = newReadme.replace('<#tryhackmeRank>', tryHackMeRank);
+    newReadme = newReadme.replace('<#CurrentlyLearning>', currentlyLearning);
+    newReadme = newReadme.replace('<#CurrentlyLearningLink>', currentlyLearningLink);
+    newReadme = newReadme.replace('<#NextStep>', nextStep);
+    newReadme = newReadme.replace('<#NextStepLink>', nextStepLink);
 
     fs.writeFileSync('README.md', newReadme);
 }
