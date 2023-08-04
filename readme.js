@@ -26,6 +26,6 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 
 ### ⭐ Hobbies and Interests
 
-- Learning about new cybersecurity trends and tools, TryHackMe is my favorite platform for that
 - Running, working out, or any outdoor activities
+- Learning about new cybersecurity trends and tools, TryHackMe is my favorite platform for that (current rank <#tryhackmeRank> 🎉) 
 `;
