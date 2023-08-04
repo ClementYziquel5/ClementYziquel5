@@ -34,12 +34,13 @@ const main = async () => {
     const daysBeforeBirthday = getDaysBeforeNextBirthday();
     const tryHackMeRank = await getTryHackMeRank();
 
-    let newReadme = readme.replace('<#daysBeforeBirthdday>', daysBeforeBirthday);
-    newReadme = newReadme.replace('<#tryhackmeRank>', tryHackMeRank);
-    newReadme = newReadme.replace('<#CurrentlyLearning>', currentlyLearning);
-    newReadme = newReadme.replace('<#CurrentlyLearningLink>', currentlyLearningLink);
-    newReadme = newReadme.replace('<#NextStep>', nextStep);
-    newReadme = newReadme.replace('<#NextStepLink>', nextStepLink);
+    const newReadme = readme
+    .replace('<#daysBeforeBirthdday>', daysBeforeBirthday)
+    .replace('<#tryhackmeRank>', tryHackMeRank)
+    .replace('<#CurrentlyLearning>', currentlyLearning)
+    .replace('<#CurrentlyLearningLink>', currentlyLearningLink)
+    .replace('<#NextStep>', nextStep)
+    .replace('<#NextStepLink>', nextStepLink);
 
     fs.writeFileSync('README.md', newReadme);
 }
