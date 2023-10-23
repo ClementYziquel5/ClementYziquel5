@@ -25,16 +25,15 @@ def get_rootme_points(username):
         return f"Failed to retrieve data. Status code: {response.status_code}"
     
 def replace_tags(Ellzee):
-    with open('README.md', 'r') as f:
+    with open('README.md', 'r', encoding='utf-8') as f:
         content = f.read()
         
         content = content.replace('<#rootmePoints>', str(Ellzee['Points']))
         content = content.replace('<#rootmeRank>', str(Ellzee['Classement']))
 
-        with open('README.md', 'w') as f:
+        with open('README.md', 'w', encoding='utf-8') as f:
             f.write(content)
             f.close()
-
 
 
 def main():
@@ -46,7 +45,7 @@ def main():
     print(f"Points: {Ellzee['Points']}")
     print(f"Classement: {Ellzee['Classement']}")
 
-    #replace_tags(Ellzee)
+    replace_tags(Ellzee)
 
 if __name__ == "__main__":
     main()
