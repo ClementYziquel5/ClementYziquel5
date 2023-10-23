@@ -1,4 +1,3 @@
-
 ### Hi there my name is Clément 👋
 
 Only 87 days before my next birthday! 🎂
@@ -27,4 +26,6 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 ### ⭐ Hobbies and Interests
 
 - Running, working out, or any outdoor activities
-- Learning about new cybersecurity trends and tools, TryHackMe is my favorite platform for that (current rank 157029 🎉) 
+- Learning about new cybersecurity trends and tools
+    - TryHackMe current rank 157029 🎉
+    - Root-Me current rank <#rootmeRank> ( <#rootmePoints> points ) 🎉  
