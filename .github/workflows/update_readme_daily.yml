@@ -19,6 +19,13 @@ jobs:
         with:
           node-version: "18.x"
       - run: node index.js
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - run: |
+          pip install -r requirements.txt
+          python root-me.py
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:

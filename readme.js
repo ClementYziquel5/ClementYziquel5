@@ -1,7 +1,6 @@
-module.exports = `
-### Hi there my name is Clément 👋
+module.exports = `### Hi there my name is Clément 👋
 
-Only <#daysBeforeBirthdday> days before my next birthday! 🎂
+Only 87 days before my next birthday! 🎂
 
 ## 🎓 M1 Cybersecurity Student at ISEN Brest
 
@@ -16,8 +15,8 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 
 ### 🌱 What I'm Learning
 
-- I'm currently exploring [<#CurrentlyLearning>](<#CurrentlyLearningLink>)
-- Next step is mastering [<#NextStep>](<#NextStepLink>)
+- I'm currently exploring [Burp Suite](https://portswigger.net/burp)
+- Next step is mastering [Docker](https://www.docker.com/)
 
 ### 📂 Projects
 
@@ -27,5 +26,7 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 ### ⭐ Hobbies and Interests
 
 - Running, working out, or any outdoor activities
-- Learning about new cybersecurity trends and tools, TryHackMe is my favorite platform for that (current rank <#tryhackmeRank> 🎉) 
+- Learning about new cybersecurity trends and tools
+    - TryHackMe current rank 157029 🎉
+    - Root-Me current rank <#rootmeRank> ( <#rootmePoints> points ) 🎉  
 `;
