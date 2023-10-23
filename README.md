@@ -28,4 +28,4 @@ I am passionate about cybersecurity and currently pursuing my second year of Mas
 - Running, working out, or any outdoor activities
 - Learning about new cybersecurity trends and tools
     - TryHackMe current rank 157029 🎉
-    - Root-Me current rank <#rootmeRank> ( <#rootmePoints> points ) 🎉  
+    - Root-Me current rank 9047 ( 1270 points ) 🎉  
