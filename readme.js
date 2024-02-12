@@ -2,9 +2,10 @@ module.exports = `### Hi there my name is Clément 👋
 
 Only <#daysBeforeBirthdday> days before my next birthday! 🎂
 
-## 🎓 M1 Cybersecurity Student at ISEN Brest
+## 🎓 Master 2 Cybersecurity Student at ISEN Brest
 
 I am passionate about cybersecurity and currently pursuing my second year of Master's degree at [ISEN Brest](https://isen-brest.fr/). I love learning and exploring new technologies.
+In parallel, I'm working as a DevOps engineer.
 
 ### 🛠️ Skills
 
