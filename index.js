@@ -7,15 +7,17 @@ const nextStep = "Docker";
 const nextStepLink = "https://www.docker.com/";
 
 function getDaysBeforeNextBirthday() {
-    const today = new Date();
-    const birthday = new Date(today.getFullYear(), 0, 14);
-    if (today.getMonth() > 1 || (today.getMonth() == 1 && today.getDate() > 13)) {
-        birthday.setFullYear(birthday.getFullYear() + 1);
+    var myBirthday, today, bday, diff, days;
+    myBirthday = [13,1];
+    today = new Date();
+    bday = new Date(today.getFullYear(),myBirthday[1]-1,myBirthday[0]);
+    if( today.getTime() > bday.getTime()) {
+        bday.setFullYear(bday.getFullYear()+1);
     }
-    const oneDay = 1000 * 60 * 60 * 24;
-    const daysBeforeBirthday = Math.ceil((birthday.getTime() - today.getTime()) / oneDay);
-    console.log("Days before birthday :",daysBeforeBirthday);
-    return daysBeforeBirthday;
+    diff = bday.getTime()-today.getTime();
+    days = Math.floor(diff/(1000*60*60*24));
+    console.log(days+" days until my next birthday!");
+    return days;
 }
 
 async function getTryHackMeRank() {
