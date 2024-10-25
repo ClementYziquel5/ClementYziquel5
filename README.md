@@ -1,6 +1,6 @@
 ### Hi there my name is Clément 👋
 
-Only 80 days before my next birthday! 🎂
+Only 79 days before my next birthday! 🎂
 
 ## 🎓 Master 2 Cybersecurity Student at ISEN Brest
 
@@ -28,5 +28,5 @@ In parallel, I'm working as a DevOps engineer.
 
 - Running, working out, or any outdoor activities
 - Learning about new cybersecurity trends and tools
-    - TryHackMe current rank 59575 🎉
-    - Root-Me current rank 9863 ( 1285 points ) 🎉  
+    - TryHackMe current rank 59712 🎉
+    - Root-Me current rank 10077 ( 1285 points ) 🎉  
